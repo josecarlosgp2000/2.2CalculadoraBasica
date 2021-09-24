@@ -27,12 +27,6 @@ namespace CalculadoraBasica
             InitializeComponent();
             
         }
-
-
-
-
-
-
         private void CalcularButton_Click(object sender, RoutedEventArgs e)
         {
             string operador = OperadorTextBox.Text;
@@ -76,10 +70,7 @@ namespace CalculadoraBasica
             ResultadoTextBox.Clear();
         }
 
-        private void ResultadoTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+       
 
         private void OperadorTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
